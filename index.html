@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HideGPT - Disguise ChatGPT as Google Docs for privacy. Transform the interface into a professional document editor with instant panic mode.">
+  <meta name="keywords" content="ChatGPT, Privacy, Chrome Extension, Google Docs, AI Assistant">
+  <title>HideGPT - ChatGPT Privacy Mode</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <div class="logo-icon">🛡️</div>
+        <span class="brand-name">HideGPT</span>
+      </div>
+      <div class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#" class="btn btn-primary">Get Extension</a>
+      </div>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-background">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-icon">✨</span>
+          <span>Privacy-First Chrome Extension</span>
+        </div>
+        <h1 class="hero-title">
+          Use ChatGPT <span class="gradient-text">Anywhere</span><br>
+          Without Anyone Knowing
+        </h1>
+        <p class="hero-description">
+          Transform ChatGPT into a professional Google Docs interface. Perfect for work, school, or anywhere you need discretion. Instant panic mode included.
+        </p>
+        <div class="hero-cta">
+          <a href="#" class="btn btn-large btn-primary">
+            <span>Access the Extension</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#how-it-works" class="btn btn-large btn-secondary">
+            <span>See How It Works</span>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Private</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">1-Click</div>
+            <div class="stat-label">Activation</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">Instant</div>
+            <div class="stat-label">Panic Mode</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="mockup-container">
+          <div class="mockup-window">
+            <div class="window-header">
+              <div class="window-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="window-title">Untitled Document - Google Docs</div>
+            </div>
+            <div class="window-content">
+              <div class="docs-toolbar"></div>
+              <div class="docs-page">
+                <div class="typing-animation">
+                  <span class="cursor"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card card-1">
+            <div class="card-icon">🔒</div>
+            <div class="card-text">100% Private</div>
+          </div>
+          <div class="floating-card card-2">
+            <div class="card-icon">⚡</div>
+            <div class="card-text">Instant Toggle</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Powerful Features</h2>
+        <p class="section-description">Everything you need for private AI assistance</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Google Docs Disguise</h3>
+          <p class="feature-description">Authentic Google Docs interface with title bar, toolbar, and formatting options that looks completely legitimate.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Instant Panic Mode</h3>
+          <p class="feature-description">Press Shift+Escape to instantly revert to normal ChatGPT. No traces left behind when someone approaches.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Multiple Response Styles</h3>
+          <p class="feature-description">Choose from 4 different styles for AI responses: Indented, Highlighted, Comment, or Grey Block.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">100% Private</h3>
+          <p class="feature-description">All data stays local. No external servers, no tracking, no analytics. Your conversations remain completely private.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Keyboard Shortcuts</h3>
+          <p class="feature-description">Ctrl+Shift+D to toggle, Shift+Escape for panic mode. Quick access without touching your mouse.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="16 18 22 12 16 6"/>
+              <polyline points="8 6 2 12 8 18"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Seamless Interaction</h3>
+          <p class="feature-description">Type directly in the document-style interface. Press Enter to send, Shift+Enter for new lines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-description">Get started in 3 simple steps</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3 class="step-title">Install Extension</h3>
+            <p class="step-description">Add HideGPT to Chrome with one click. No configuration needed.</p>
+          </div>
+          <div class="step-visual">
+            <div class="step-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3 class="step-title">Visit ChatGPT</h3>
+            <p class="step-description">Navigate to chatgpt.com and click the activation button or press Ctrl+Shift+D.</p>
+          </div>
+          <div class="step-visual">
+            <div class="step-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3 class="step-title">Start Typing</h3>
+            <p class="step-description">Use ChatGPT in a professional Google Docs interface. Use panic mode anytime!</p>
+          </div>
+          <div class="step-visual">
+            <div class="step-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 20h9"/>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-description">Everything you need to know</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is my data private?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, absolutely! HideGPT runs entirely locally in your browser. We don't collect, store, or transmit any of your data. All your ChatGPT conversations remain between you and OpenAI.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Does it work on all websites?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>HideGPT only works on chatgpt.com and chat.openai.com. This is by design to ensure the extension works perfectly with ChatGPT's interface and doesn't interfere with other websites.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How does panic mode work?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Press Shift+Escape anytime to instantly revert to the normal ChatGPT interface. The transformation is immediate and leaves no visual traces. You can also use the toggle button in the bottom-right corner.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do I need a ChatGPT account?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, you need an active ChatGPT account (free or paid). HideGPT is a visual overlay that transforms the ChatGPT interface - it doesn't provide ChatGPT access itself.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is it free?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! HideGPT is completely free to use with no hidden charges, subscriptions, or premium tiers. We believe privacy should be accessible to everyone.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I customize the appearance?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! You can choose from 4 different response styles, edit the document title, and toggle between the Docs Mode and normal ChatGPT interface anytime. More customization options coming soon!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Ready to Use ChatGPT Privately?</h2>
+        <p class="cta-description">Join users who value their privacy while using AI assistance</p>
+        <a href="#" class="btn btn-large btn-white">
+          <span>Access the Extension</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo-icon">🛡️</div>
+          <span class="brand-name">HideGPT</span>
+        </div>
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#faq">FAQ</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 HideGPT. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
